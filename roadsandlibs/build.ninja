@@ -1,0 +1,8 @@
+cflags = -Wall
+cppcompiler = g++
+progname = libsandroads
+
+rule cc
+     command = $cppcompiler $cflags $in -o $out
+
+build $progname: cc main.cpp
