@@ -1,5 +1,5 @@
-cflags = -Wall
-cppcompiler = g++
+cflags = -Wall -std=c++14 -O0
+cppcompiler = clang++
 progname = libsandroads
 
 rule cc
